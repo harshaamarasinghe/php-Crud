@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../asset/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.navbar {
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.btn-home {
+  font-family: "Roboto", sans-serif;
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-home:hover {
+  background-color: #45a049;
+}
+
+form {
+  font-family: "Roboto", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  font-size: 22px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: #f44336;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}

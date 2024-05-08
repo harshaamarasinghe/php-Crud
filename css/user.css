@@ -1,0 +1,149 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  background-image: url("../asset/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.navbar {
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.img-logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.btn-create-user {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-create-user:hover {
+  background-color: #45a049;
+}
+
+.btn-logout {
+  background-color: #2568d5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-logout:hover {
+  background-color: #1366eb;
+}
+
+.user-table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.user-table td {
+  color: white;
+}
+
+.user-table button {
+  background-color: #2e89ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-table button:hover {
+  background-color: #0059ff;
+}
+
+.user-table .delete-button {
+  background-color: #f44336;
+}
+
+.user-table .delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.user-table button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-pages {
+  background-color: #4caf50;
+  border: none;
+  padding: 8px 12px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-pages a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-pages:hover {
+  background-color: #45a049;
+}
+
+.search-form {
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.search-form input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+}
+
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
